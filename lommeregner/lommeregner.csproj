@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ISecondInput.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Application.xaml.vb" />
+    <None Remove="AssemblyInfo.vb" />
+    <None Remove="MainWindow.xaml.vb" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Remove="Application.xaml" />
+  </ItemGroup>
+
+</Project>
