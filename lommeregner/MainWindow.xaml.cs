@@ -24,49 +24,35 @@ namespace lommeregner
 
     public partial class MainWindow : Window
     {
-
         public MainWindow()
         {
             InitializeComponent();
         }
-
         private void minus_knap(object sender, RoutedEventArgs e) {
             CalculateWithOperator("0");
         }
-
         private void plus_knap(object sender, RoutedEventArgs e)
         {
             CalculateWithOperator("1");        
         }
-        
-
         private void division_knap(object sender, RoutedEventArgs e)
         {
             CalculateWithOperator("2");
         }
-
         private void gange_knap(object sender, RoutedEventArgs e)
         {
-         
             CalculateWithOperator("3");
         }
-
-
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-
         }
-
         private void secondinput_TextChanged(object sender, TextChangedEventArgs e)
         {
-
         }
-
         private void CalculateWithOperator(string operatorString)
         {
             int firstinput = int.Parse(firstinputTextbox.Text);
             int secondinput = int.Parse(secondinputTextbox.Text);
-
             int resultat = 0;
             switch(operatorString) {
                 case "0":
@@ -81,13 +67,9 @@ namespace lommeregner
                 case "3":
                     resultat = firstinput * secondinput;
                     break;
-
-
             }
                 resultatBox.Text = resultat + "";
-            {
-
-              
+            { 
             }
         }
     }
