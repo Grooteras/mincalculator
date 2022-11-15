@@ -1,0 +1,2 @@
+# mincalculator
+praktik calculator c#
