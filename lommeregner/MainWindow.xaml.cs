@@ -68,6 +68,7 @@ namespace lommeregner
                     break;
             }
                 resultatBox.Text = resultat + "";
+            sign.Text = operatorString;
             {
             }
         }

@@ -44,7 +44,6 @@
             </TextBox.RenderTransform>
         </TextBox>
         <TextBox x:Name="firstinputTextbox" HorizontalAlignment="Left" Margin="34,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="190" TextChanged="TextBox_TextChanged" FontSize="24" Height="120"/>
-        <Label Content="&#xD;&#xA;" HorizontalAlignment="Left" Margin="256,155,0,0" VerticalAlignment="Top" Width="27"/>
-
+        <TextBox x:Name="sign" HorizontalAlignment="Left" Margin="255,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="36" IsEnabled="False" FontSize="40" Text="&#xD;&#xA;" Height="55"/>
     </Grid>
 </Window>
