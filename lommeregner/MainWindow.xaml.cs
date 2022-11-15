@@ -21,6 +21,7 @@ namespace lommeregner
         {
             InitializeComponent();
         }
+        //button info
         private void minus_knap(object sender, RoutedEventArgs e) {
             CalculateWithOperator("-");
         }
@@ -44,6 +45,7 @@ namespace lommeregner
         }
         private void CalculateWithOperator(string operatorString)
         {
+            //buttons funktion
             int firstinput = int.Parse(firstinputTextbox.Text);
             int secondinput = int.Parse(secondinputTextbox.Text);
             int resultat = 0;
