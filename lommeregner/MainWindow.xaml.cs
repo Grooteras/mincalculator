@@ -22,19 +22,19 @@ namespace lommeregner
             InitializeComponent();
         }
         private void minus_knap(object sender, RoutedEventArgs e) {
-            CalculateWithOperator("0");
+            CalculateWithOperator("-");
         }
         private void plus_knap(object sender, RoutedEventArgs e)
         {
-            CalculateWithOperator("1");        
+            CalculateWithOperator("+");        
         }
         private void division_knap(object sender, RoutedEventArgs e)
         {
-            CalculateWithOperator("2");
+            CalculateWithOperator("/");
         }
         private void gange_knap(object sender, RoutedEventArgs e)
         {
-            CalculateWithOperator("3");
+            CalculateWithOperator("*");
         }
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
@@ -48,16 +48,16 @@ namespace lommeregner
             int secondinput = int.Parse(secondinputTextbox.Text);
             int resultat = 0;
             switch(operatorString) {
-                case "0":
+                case "-":
                     resultat = firstinput - secondinput;
                     break;
-                case "1":
+                case "+":
                     resultat = firstinput + secondinput;
                     break;
-                case "2":
+                case "/":
                     resultat = firstinput / secondinput;
                     break;
-                case "3":
+                case "*":
                     resultat = firstinput * secondinput;
                     break;
             }
