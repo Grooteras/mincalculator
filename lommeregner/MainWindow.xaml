@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:lommeregner"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid HorizontalAlignment="Right" Width="800">
         <TextBlock HorizontalAlignment="Left" Margin="-182,335,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="83" RenderTransformOrigin="0.5,0.5" Width="110" FontSize="24" Opacity="0" Background="Black">
             <TextBlock.RenderTransform>
                 <TransformGroup>

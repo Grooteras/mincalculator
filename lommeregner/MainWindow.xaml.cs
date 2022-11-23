@@ -50,9 +50,9 @@ namespace lommeregner
         private void CalculateWithOperator(string operatorString)
         {
             //buttons funktion
-            int firstinput = int.Parse(firstinputTextbox.Text);
-            int secondinput = int.Parse(secondinputTextbox.Text);
-            int resultat = 0;
+            double firstinput = double.Parse(firstinputTextbox.Text);
+            double secondinput = double.Parse(secondinputTextbox.Text);
+            double resultat = 0;
             switch(operatorString) {
                 case "-":
                     resultat = firstinput - secondinput;
